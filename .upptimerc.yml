@@ -14,17 +14,33 @@ status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: monitor.smetmat.cf
+  name: SMETMAT Monitor
   # baseUrl: monitor-system
   theme: dark
   logoUrl: https://avatars.githubusercontent.com/u/103024021?v=4
   name: SMETMAT Monitoring system
   introTitle: "SMETMAT system-uptime monitoring"
-  introMessage: เครื่องมือตรวจจับสถานะการทำงานของเว็บไซต์ และ ระบบภายใน SMETMAT โดย [Upptime](https://upptime.js.org) และ Github Actions
+  introMessage: เครื่องมือตรวจจับสถานะการทำงานของเว็บไซต์และระบบภายใน SMETMAT โดย [Upptime](https://upptime.js.org) และ Github Actions
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+  assignees: # Users to assign downtime issues
+    - ptsgrn
+  metaTags:
+    - name: "color-scheme"
+      content: "dark"
+    - name: "robots"
+      content: "noindex"
+  workflowSchedule:
+    graphs: "0 0 * * *"           # “At 00:00.”
+    responseTime: "0 23 * * *"    # “At 23:00.”
+    staticSite: "0 1 * * *"       # “At 01:00.”
+    summary: "0 0 * * *"          # “At 00:00.”
+    updateTemplate: "0 0 * * *"   # “At 00:00.”
+    updates: "0 3 * * *"          # “At 03:00.”
+    uptime: "*/5 * * * *"         # “At every 5th minute.”
+  commitMessages:
+    commitAuthorName: "Status Bot"
+    commitAuthorEmail: "contact@memewithyasart.ml"

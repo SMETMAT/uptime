@@ -7,7 +7,7 @@ sites:
     url: https://www.smetmat.cf
   - name: SMETMAT (th site)
     url: https://xn--12c8b2ayn.cf/
-  - name: TPSO (Meme Withyasart)
+  - name: TPSO (พลังจิตโอลิมปิก)
     url: https://tpso.memewithyasart.ml/
 
 status-website:
@@ -19,7 +19,7 @@ status-website:
   logoUrl: https://avatars.githubusercontent.com/u/103024021?v=4
   name: SMETMAT Monitoring system
   introTitle: "SMETMAT system-uptime monitoring"
-  introMessage: เครื่องมือตรวจจับสถานะการทพงานของเว็บไซต์และระบบภายใน SMETMAT โดย [Upptime](https://upptime.js.org) และ Github Actions
+  introMessage: เครื่องมือตรวจจับสถานะการทำงานของเว็บไซต์ และ ระบบภายใน SMETMAT โดย [Upptime](https://upptime.js.org) และ Github Actions
   navbar:
     - title: Status
       href: /

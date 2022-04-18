@@ -16,7 +16,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2022-04-18": 123,
+      "2022-04-18": 732,
       "2022-04-17": 1440,
       "2022-04-16": 1440,
       "2022-04-15": 1440,
@@ -46,7 +46,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2022-04-18": 123,
+      "2022-04-18": 732,
       "2022-04-17": 1440,
       "2022-04-16": 1440,
       "2022-04-15": 1440,
@@ -64,18 +64,19 @@
     "url": "https://tpso.memewithyasart.ml/",
     "icon": "https://favicons.githubusercontent.com/tpso.memewithyasart.ml",
     "slug": "tpso",
-    "status": "up",
-    "uptime": "99.90%",
+    "status": "down",
+    "uptime": "99.91%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.87%",
-    "uptimeMonth": "99.90%",
-    "uptimeYear": "99.90%",
-    "time": 424,
-    "timeDay": 200,
-    "timeWeek": 415,
-    "timeMonth": 424,
-    "timeYear": 424,
+    "uptimeWeek": "99.86%",
+    "uptimeMonth": "99.91%",
+    "uptimeYear": "99.91%",
+    "time": 478,
+    "timeDay": 720,
+    "timeWeek": 497,
+    "timeMonth": 478,
+    "timeYear": 478,
     "dailyMinutesDown": {
+      "2022-04-18": 0,
       "2022-04-14": 14
     }
   }
